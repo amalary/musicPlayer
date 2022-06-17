@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel = "stylesheet" href = "styles/style.css">
+    <script src = "scripts/app.js" defer ></script>
+</head>
+<body>
+    <div class = "musicPlayer">
+        <div class="wrapper">
+            <div class="details">
+                <div class="now-Playing">Playing x of y</div>
+                <div class="track-art">Track Art</div>
+                <div class="trackname">Track Name</div>
+                <div class="track-artist">Track Artist</div>
+
+                <div class="slider_containter">
+                    <div class="current-time">00:00</div>
+                    <input type="range" min = "1" max = "100" value = "0" class ="seekSlider" onchange="seekTo()">
+                    <div class="total-duration">00:00</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
