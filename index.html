@@ -21,6 +21,31 @@
                     <input type="range" min = "1" max = "100" value = "0" class ="seekSlider" onchange="seekTo()">
                     <div class="total-duration">00:00</div>
                 </div>
+
+                <div class="slider-container">
+                    <i class="fa-solid fa-volume-low"></i>
+                    <input type="range" min = "1" max ="100" value = "99" class = "volume-slider" onchange="setVolume()">
+                    <i class="fa-solid fa-volume"></i>
+                </div>
+
+                <div class="buttons">
+                    <div class="random-track" onclick="randomTrack()">
+                        <i class="fa-solid fa-shuffle" title="random"></i>
+                    </div>
+                    <div class="prev-track" onclick="prevTrack()">
+                        <i class = "fas fa-random fa-2x" title = "random"></i>
+                    </div>
+                    <div class="random-track" onclick="randomTrack()">
+                        <i class = "fas fa-random fa-2x" title = "random"></i>
+                    </div>
+                    <div class="random-track" onclick="randomTrack()">
+                        <i class = "fas fa-random fa-2x" title = "random"></i>
+                    </div>
+
+                </div>
+                
+
+
             </div>
 
         </div>
